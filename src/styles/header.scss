@@ -1,0 +1,54 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 16px;
+    color: lightgray;
+    font-weight: 600;
+
+    .primary-navbar-wrapper {
+        display: flex;
+        .primary-navbar-logo-wrapper {
+            .netflix-logo {
+                height: 25px;
+            }
+        }
+        .primary-navbar-links-wrapper {
+            display: flex;
+            padding: 0px 30px;
+
+            .primary-navbar-link {
+                font-size: 0.85em;
+                cursor: pointer;
+                padding-left: 19px;
+                
+                #primary-navbar-home-link {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+    
+    .secondary-navbar-wrapper {
+        display: flex;
+
+        .secondary-navbar-link {
+            padding-left: 25px;
+
+            .secondary-navbar-profile-wrapper {
+                display: flex;
+                align-items: center;
+
+                .secondary-navbar-profile-picture {
+                    height: 30px;
+                    padding-right: 8px;
+                }
+                .secondary-navbar-dropdown-arrow {
+                    height: 11px;
+                }
+            }
+        }
+    }
+}
